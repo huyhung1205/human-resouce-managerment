@@ -19,6 +19,7 @@ CREATE TABLE PhongBan (
     CONSTRAINT CK_PhongBan_TenPhongBan CHECK (LEN(TRIM(tenPhongBan)) >= 2)
 );
 GO
+GO
 
 -- =====================================================
 -- 2. BẢNG CHỨC VỤ (Positions)
